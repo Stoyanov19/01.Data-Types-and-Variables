@@ -1,0 +1,6 @@
+function requiredReading(number, pages, days) {
+    let totalTime = number / pages;
+    let requiredRead = totalTime / days;
+
+    console.log(requiredRead);
+}
